@@ -1,0 +1,228 @@
+/* line 1, ../../../OneDrive/Documentos/Documentos/NEON/scss/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* line 12, ../../../OneDrive/Documentos/Documentos/NEON/scss/_reset.scss */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 17, ../../../OneDrive/Documentos/Documentos/NEON/scss/_reset.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 21, ../../../OneDrive/Documentos/Documentos/NEON/scss/_reset.scss */
+html, body {
+  overflow-x: hidden;
+}
+
+/* line 24, ../../../OneDrive/Documentos/Documentos/NEON/scss/_reset.scss */
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* line 1, ../../../OneDrive/Documentos/Documentos/NEON/scss/_grid.scss */
+.container {
+  width: 100%;
+  max-width: 124.6rem;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* line 1, ../../../OneDrive/Documentos/Documentos/NEON/scss/_titles.scss */
+h1 {
+  font-weight: 600;
+  font-size: 6.4rem;
+}
+
+/* line 6, ../../../OneDrive/Documentos/Documentos/NEON/scss/_titles.scss */
+h2 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+/* line 11, ../../../OneDrive/Documentos/Documentos/NEON/scss/_titles.scss */
+h3 {
+  font-size: 2.4rem;
+  line-height: 150%;
+}
+
+/* line 16, ../../../OneDrive/Documentos/Documentos/NEON/scss/_titles.scss */
+h4 {
+  font-size: 2rem;
+  line-height: 112%;
+}
+
+/* line 21, ../../../OneDrive/Documentos/Documentos/NEON/scss/_titles.scss */
+h1, h2 {
+  line-height: 112%;
+  letter-spacing: -1px;
+}
+
+/* line 27, ../../../OneDrive/Documentos/Documentos/NEON/scss/_titles.scss */
+h3, h4 {
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+/* line 32, ../../../OneDrive/Documentos/Documentos/NEON/scss/_titles.scss */
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #4E4B59;
+}
+
+/* line 1, ../../../OneDrive/Documentos/Documentos/NEON/scss/_components.scss */
+.card-depoimentos {
+  width: 100%;
+  max-width: 38.4rem;
+  height: 20.9rem;
+  background-color: rgba(241, 240, 245, 0.55);
+  border-radius: 8px;
+  padding: 3.7rem 3.2rem 2.3rem 3.2rem;
+}
+
+/* line 8, ../../../OneDrive/Documentos/Documentos/NEON/scss/_components.scss */
+.card-depoimentos .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.1rem;
+}
+
+/* line 11, ../../../OneDrive/Documentos/Documentos/NEON/scss/_components.scss */
+.card-depoimentos .user strong {
+  display: block;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 112%;
+  letter-spacing: -1px;
+  color: #4E4B59;
+}
+
+/* line 21, ../../../OneDrive/Documentos/Documentos/NEON/scss/_components.scss */
+.card-depoimentos p {
+  font: size 1.8rem;
+  line-height: 150%;
+  color: #5F5C6B;
+}
+
+/* line 1, ../../../OneDrive/Documentos/Documentos/NEON/scss/_buttons.scss */
+.btn-primary {
+  background-color: #FFC800;
+  color: #855B35;
+  transition: background-color .3s;
+}
+
+/* line 5, ../../../OneDrive/Documentos/Documentos/NEON/scss/_buttons.scss */
+.btn-primary:hover {
+  background-color: #FFDC5C;
+}
+
+/* line 9, ../../../OneDrive/Documentos/Documentos/NEON/scss/_buttons.scss */
+.btn-secondary {
+  border: 1px solid #00A5F0;
+  background-color: transparent;
+  color: #ffffff;
+  transition: all .3s;
+}
+
+/* line 14, ../../../OneDrive/Documentos/Documentos/NEON/scss/_buttons.scss */
+.btn-secondary:hover {
+  background-color: #00A5F0;
+  color: #ffffff;
+}
+
+/* line 18, ../../../OneDrive/Documentos/Documentos/NEON/scss/_buttons.scss */
+.btn-secondary.white {
+  border: 1px solid white;
+}
+
+/* line 20, ../../../OneDrive/Documentos/Documentos/NEON/scss/_buttons.scss */
+.btn-secondary.white:hover {
+  background-color: white;
+  color: #FFa500;
+}
+
+/* line 27, ../../../OneDrive/Documentos/Documentos/NEON/scss/_buttons.scss */
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 2.6rem;
+  border-radius: 122px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 4.8rem;
+}
+
+/* line 39, ../../../OneDrive/Documentos/Documentos/NEON/scss/_buttons.scss */
+body {
+  background-color: #FFa500;
+}
+
+/* line 1, ../../../OneDrive/Documentos/Documentos/NEON/scss/_header.scss */
+header {
+  background: #c100FF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8.8rem;
+  display: flex;
+}
+
+/* line 9, ../../../OneDrive/Documentos/Documentos/NEON/scss/_header.scss */
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 12, ../../../OneDrive/Documentos/Documentos/NEON/scss/_header.scss */
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+/* line 15, ../../../OneDrive/Documentos/Documentos/NEON/scss/_header.scss */
+header nav ul {
+  display: flex;
+  align-items: center;
+  margin-right: 5.9rem;
+}
+
+/* line 20, ../../../OneDrive/Documentos/Documentos/NEON/scss/_header.scss */
+header nav ul li:not(:first-child) {
+  margin-left: 4.8rem;
+}
+
+/* line 23, ../../../OneDrive/Documentos/Documentos/NEON/scss/_header.scss */
+header nav ul li a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 125%;
+  color: #ffffff;
+  transition: color .3s;
+}
+
+/* line 30, ../../../OneDrive/Documentos/Documentos/NEON/scss/_header.scss */
+header nav ul li a:hover {
+  color: #ffa500;
+}
+
+/*# sourceMappingURL=main.css.map */
